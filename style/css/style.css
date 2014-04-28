@@ -1,0 +1,102 @@
+body{
+	background-image: url(../../style/image/fondecran.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.content_all{
+	background-color: #FFF;
+	height: auto;
+	margin : 1.5% 20%;
+	border-radius: 10px;
+	box-shadow: 1px 1px 12px #555;
+	opacity: 0.9;
+	padding-bottom: 0.5%;
+}
+
+/*   			HEADER   			*/ 
+.logo{
+	height: 80px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.nav.navbar-nav a{
+	font-weight: bold;
+	font-size: 17px;
+}
+
+div.col-xs-4.col-xs-offset-9{
+	margin-top: 25%;
+}
+
+
+
+
+/* 				NAV BAR				 */ 
+div.collapse.navbar-collapse{
+	background-color: rgba(189, 214,60, 0.8);
+}
+
+.nav{
+	text-align: center;
+
+}
+
+div.col-lg-12{
+	padding: 0 7px 0 7px;
+}
+
+
+
+/*  			CONTENU  			*/
+.content {
+	position: relative;
+	height: auto;
+}
+
+
+
+/*  			Acceuil 			 */
+.accroche{
+	font-size: 17px;
+	color: red;
+	font-weight: bold;
+}
+
+.accroche.menu{
+	padding-top: 20px;
+}
+
+
+ul#demo3_thumbs{
+	margin-top: 2px;
+}
+
+
+
+/*				Gite				*/
+.compo{
+	height: 395px;
+	width: 100%;
+}
+
+
+
+/*              Footer 				 */
+#footer{
+	background-color: #e0d4ba;
+	position: relative;	
+	margin: 20px  7px 0 7px;
+	height: auto;
+}
+
+.texte_footer{
+	text-align: center;
+	font-family: Dayrom, serif;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+
