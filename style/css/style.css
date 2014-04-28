@@ -39,7 +39,7 @@ div.collapse.navbar-collapse{
 	background-color: rgba(189, 214,60, 0.8);
 }
 
-.nav{
+.navbar-default{
 	text-align: center;
 
 }
@@ -48,6 +48,7 @@ div.col-lg-12{
 	padding: 0 7px 0 7px;
 }
 
+.navbar-nav{display: inline-block;float: none;}
 
 
 /*  			CONTENU  			*/
