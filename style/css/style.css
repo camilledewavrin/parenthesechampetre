@@ -3,23 +3,30 @@ body{
 	background-size: 100% 100%;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
 }
 
 .content_all{
 	background-color: #FFF;
 	height: auto;
-	margin : 1.5% 20%;
+	margin : 0.5% 20% 0;
 	border-radius: 10px;
 	box-shadow: 1px 1px 12px #555;
-	opacity: 0.9;
+	opacity: 0.85;
 	padding-bottom: 0.5%;
+}
+
+img{
+	opacity: 1;
 }
 
 /*   			HEADER   			*/ 
 .logo{
-	height: 80px;
-	margin-top: 2%;
-	margin-bottom: 2%;
+	height: 120px;
+	margin-bottom: -20px;
+	margin-top: -10px;
+	width: 100%;
 }
 
 .nav.navbar-nav a{
@@ -27,25 +34,51 @@ body{
 	font-size: 17px;
 }
 
-div.col-xs-4.col-xs-offset-9{
-	margin-top: 25%;
+#logo_fb{
+	height: 30px;
+}
+
+#logo_1418{
+	height: 40px;
+	padding-bottom: 3px;
+}
+
+.drapeau{
+	height: 24px;
+}
+
+div.col-md-3.drapeau{
+	padding-left: 16%;
+	margin-top:  0.5%;
+}
+
+.col-xs-offset-9{
+	margin-top: 2%;
 }
 
 
-
-
 /* 				NAV BAR				 */ 
-div.collapse.navbar-collapse{
+div.navbar.navbar-default{
 	background-color: rgba(189, 214,60, 0.8);
+	height: auto;
+	min-height: 10px;
 }
 
 .navbar-default{
 	text-align: center;
-
 }
 
-div.col-lg-12{
+div.col-lg-12.menu{
 	padding: 0 7px 0 7px;
+}
+
+.navbar-nav > li > a{
+	padding-bottom: 0;
+	padding-top: 7px;
+}
+
+ul.nav.navbar-nav{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .navbar-nav{display: inline-block;float: none;}
@@ -55,49 +88,207 @@ div.col-lg-12{
 .content {
 	position: relative;
 	height: auto;
+	padding: 0 2% 0 2%;
+}
+
+div.col-lg-7{
+	/*padding-left: 0;*/
+}
+
+.encart{
+	position: relative;
+	bottom: 0;
 }
 
 
 
 /*  			Acceuil 			 */
 .accroche{
-	font-size: 17px;
-	color: red;
-	font-weight: bold;
+	font-size: 21px;
+	color: #dc011b;
+	line-height: 24px;
 }
 
-.accroche.menu{
-	padding-top: 20px;
+#bx-pager{
+	text-align: center;
+	padding-right: 1%;
+}
+
+#bx-pager a img{
+	border : 5px solid #fff;
+	margin: 2px;
+}
+
+#bx-pager a img{
+	border: solid #fff 3px;
+	box-shadow: 0 0 5px #ccc;
+}
+
+#bx-pager a.active img{
+	border: solid #fff 6px;
+	box-shadow: 0 0 5px #ccc;
+}
+
+.accroche.accueil{
+	margin-top: 15%;
+	margin-bottom: 10%;
+}
+
+p.texte{
+	font-size: 12px;
+	line-height: 15px;
+}
+
+
+.thumb{
+	padding-right: 2%;    /*   A voir		*/
 }
 
 
 ul#demo3_thumbs{
-	margin-top: 2px;
+	margin-top: 5%;
 }
 
 
 
 /*				Gite				*/
 .compo{
-	height: 395px;
+	width: 100%;
+}
+
+.bandeauGite{
+	width: 260px;
+	margin-top: 5%;
+}
+
+
+/*				Balnéo				*/
+.bulle{
+	color: #dc011b;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.bandeauBalneo{	
+	width: 260px;
+}
+
+.bandeauBalneo.EN{
+	margin-top: 3%;
+}
+
+
+/*				TARIFS				*/
+.fondtd{
+	background-color: #E6E6E6;
+	white-space: pre;
+}
+
+.bandeauTarif{
+	width: 260px;
+	float: right;
+}
+
+.fa{
+	width: 4%;
+}
+
+.fondtdvert{
+	background-color: rgba(189, 214,60, 0.8);
+}
+
+
+/*				CONTACT				*/
+.btn-primary{
+	background-color: rgba(189, 214,60, 0.8);
+	border-color: rgba(189, 214,60, 0.8);
+	color: #777777;
+}
+
+iframe{
+	margin-top: 5%;
 	width: 100%;
 }
 
 
+/*				DECOUVRIR			*/
 
-/*              Footer 				 */
+
+
+/*              FOOTER				*/
 #footer{
 	background-color: #e0d4ba;
 	position: relative;	
-	margin: 20px  7px 0 7px;
+	margin: 10px  7px 0 7px;
 	height: auto;
 }
 
 .texte_footer{
 	text-align: center;
-	font-family: Dayrom, serif;
     font-weight: normal;
-    font-size: 13px;
+    font-size: 10px;
+	padding-top: 10px;
+}
+
+span.CC {
+	float: right;
+	margin-right: 4%;
+}
+
+#C{
+	margin-top : 11%;
 }
 
 
+/*			MEDIA			*/
+@media (max-width: 768px){
+	div.navbar.navbar-default
+	{
+		height: auto;
+		min-height: 50px;
+	}
+	.content_all{
+			margin : 0.5% 2% 0;
+	}
+
+	body{
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+	}
+}
+
+@media (max-width: 1024px){
+	.content_all{
+			margin : 0.5% 4% 0;
+	}
+}
+
+@media (min-width: 1900px){
+	.content_all{
+			margin : 5% 20% 0;
+	}
+
+	.logo{
+		height: 155px;
+	}
+}
+
+@media (min-width: 2500px){
+	.content_all{
+			margin : 8% 20% 0;
+	}
+
+	.logo{
+		height: 155px;
+	}
+
+	body{
+		background-image: url(../../style/image/fondecran.jpg);
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		font-family: 'Lato', sans-serif;
+		font-size: 14px;
+	}
+}

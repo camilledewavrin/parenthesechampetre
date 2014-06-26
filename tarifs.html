@@ -6,35 +6,36 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Parenthèse Champêtre | Accueil</title>
+    <title>Parenthèse Champêtre | Tarifs</title>
+    <link rel="icon" type="image/png" href="style/image/tbcoquelicot.png" />
     <link href="bootstrap/bootstrap.css" rel="stylesheet">
-    <link href="style/css/style.css" rel="stylesheet">    
-
-    <!--  DEDOSLIDE   -->
-    <link rel="stylesheet" href="style/css/animate.css">
-    <link rel="stylesheet" href="style/css/jquery.desoslide.css">
+    <link href="style/css/style.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>  
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">  
     <script src="style/js/jquery.js"></script>
-    <script src="style/js/jquery.desoslide.js"></script>
-    <script src="style/js/highlight.min.js"></script>
-    <script src="style/js/monScript.js"></script>
   </head>
   <body>
    
    <section class="content_all">
       <section class="header">
         <div class="row">
-          <div class="col-md-4  col-md-offset-4">
-              <img class="logo" src="style/image/logo-off1.png">
+          <div class="col-md-3">
+              <a href="http://www.clevacances.com/fr/location/21570" target="_blank"><img id="logo_vacance" src="style/image/clevacances.png" alt="Clevacances"></a>
+              <a href="http://www.facebook.com/giteparenthesechampetre" target="_blank"><img id="logo_fb" src="style/image/icon/facebook.png" alt="Facebook"></a>
+              <a href="http://www.cheminsdememoire-nordpasdecalais.fr" target="_blank"><img id="logo_1418" src="style/image/icon/logo1418.jpg" alt="Nothern France"></a>
           </div>
-            <div class="col-xs-1 col-xs-offset-11">
-                <a href="tarifs.html"><img src="style/image/icon/fr.gif"></a>
-                <a href="EN/tarifs.html"><img src="style/image/icon/en.gif"></a>
-           </div>
+          <div class="col-md-6">              
+              <img class="logo" src="style/image/logo-horizontal.png" alt="Logo">
+          </div>
+           <div class="col-md-3 drapeau">
+                <a href="tarifs.html"><img class="drapeau" src="style/image/icon/fr.gif" alt="FR"></a>
+                <a href="EN/tarifs.html"><img class="drapeau" src="style/image/icon/en.gif" alt="EN"></a>
+         </div>
         </div>
       </section> <!-- fin section header   -->
       <section class="content_menu">
         <div class="row">
-            <div class="col-lg-12 ">
+            <div class="col-lg-12 menu">
               <div class="navbar navbar-default" role="navigation">
                 <div class="navbar-header">
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -50,7 +51,7 @@
                     <li><a href="gite.html">Gîte</a></li>
                     <li><a href="balneo.html">Balnéothérapie</a></li>
                     <li class="active"><a href="tarifs.html">Tarifs</a></li>
-                    <li><a href="contact.html">Contact / Accès</a></li>
+                    <li><a href="contact.php">Contact / Accès</a></li>
                     <li><a href="liens.html">Découvrir</a></li>
                   </ul>
                 </div><!--/.nav-collapse -->
@@ -58,29 +59,81 @@
             </div><!-- menu col -->
           </div>
       </section>  <!-- fin section menu   -->
-      <section class="content">
+      <section class="content">       
         <div class="row">
-          <div class="col-lg-4 gauche">
-
+          <div class="col-lg-6 gauche">
+              <table class="table table-responsive">
+                <thead>
+                  <tr>
+                    <th>Tarifs du gîte</th>
+                    <th>Basse saison</th>
+                    <th>Haute saison</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                      <td class="fondtd">Semaine (7 nuitées)</td>
+                      <td class="fondtdvert">390 €</td>
+                      <td class="fondtdvert">440 €</td>
+                    </tr>
+                    <tr>
+                      <td class="fondtd">Semaine (4 nuitées)</td>
+                      <td class="fondtdvert">240 €</td>
+                      <td class="fondtdvert">300 €</td>
+                    </tr>
+                    <tr>
+                      <td class="fondtd">Week-end</td>
+                      <td class="fondtdvert">160 €</td>
+                      <td class="fondtdvert">200 €</td>
+                    </tr>
+                </tbody>
+              </table>
+              <p><i class="fa fa-warning"></i>  Nos amis les animaux ne sont pas admis dans le gîte.</p>
+              
+              <span><i class="fa fa-info-circle"></i>  Le gîte est disponible le jour de votre arrivée à partir de 16 heures, et devra être libéré, le jour de votre départ au plus tard à 11 heures.</span>
           </div>
          
-          <div class="col-lg-8">
-
-
+          <div class="col-lg-6">
+            <table class="table table-responsive">
+                <thead>
+                  <tr>
+                    <th>Tarifs des soins</th>
+                    <th>Tarifs</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                      <td class="fondtd">Rien que des bulles          (45mn)</td>
+                      <td class="fondtdvert">49 €</td>
+                    </tr>
+                    <tr>
+                      <td class="fondtd">Une bulle gourmande   (60mn)</td>
+                      <td class="fondtdvert">69 €</td>
+                    </tr>
+                    <tr>
+                      <td class="fondtd">Une bulle essentielle       (75mn)</td>
+                      <td class="fondtdvert">89 €</td>
+                    </tr>
+                </tbody>
+              </table>
+              <img src="style/image/encart-tarif.png" class="bandeauTarif" alt="encart">
+          </div>
         </div>
       </section> <!-- fin section content   -->
       
       <div id="footer">
         <div class="row">
-              <p class="texte_footer">Gite Parenthèse champètre dans le Nord Pas de Calais - 4 rue du Moulin 59940 NEUF BERQUIN</br>
- 
-                Isabelle et Jean Pierre DANET - Tél + (33) 3 28 40 43 70 -  + (33) 6 84 58 59 84</br>
-                <a href="http://www.parenthesechampetre.fr" target="about_blank">www.parenthesechampetre.fr</a>  |  </a>Email : contact@parenthesechampetre</p>
+              <p class="texte_footer">Gite Parenthèse Champètre dans le Nord  - 4 rue du Moulin 59940 NEUF BERQUIN<br/>
+                Isabelle et Jean Pierre DANET - Tél + (33) 3 28 40 43 70 -  + (33) 6 84 58 59 84 Email : contact@parenthesechampetre.fr</p>
+                <!-- <a href="http://www.parenthesechampetre.fr" target="about_blank">www.parenthesechampetre.fr</a>  |  -->
         </div>
       </div>
 
   </section> <!-- fin section content All   -->
-      
+  <div id="C">
+
+  <span class="CC"><a href="http://camilledewavrin.github.io/" target="about_blanck"><img src="style/image/icon/avatar.png" alt="Camille D" width="50"></a><a href="http://charleslamarque.com/" target="about_blanck"><img src="style/image/icon/C.png" alt="Charles L" width="38"></a></span>
+  </div>    
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/bootstrap.min.js"></script>
